@@ -14,5 +14,6 @@ jobs:
           publish_on_merge: true
           application_id: c3e94caa-9630-4b18-b37b-9ad2930afad5
           status: failure
+          service_url: ${{secrets.SERVICE_URL}}
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
