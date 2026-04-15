@@ -18,7 +18,7 @@ jobs:
           publish_on_merge: true
           application_id: 1139b2b0-d3c7-40a9-8e60-ccb9d9772886
           acceptssl: true
-          status: failure
+          status: action_required
           service_url: ${{secrets.SERVICE_URL}}
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
