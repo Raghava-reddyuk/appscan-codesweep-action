@@ -12,7 +12,7 @@ jobs:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
           publish_on_merge: true
-          application_id: 8828d53b-d9d8-4d1e-9f39-0058a5ab0ea2
+          application_id: 1139b2b0-d3c7-40a9-8e60-ccb9d9772886
           acceptssl: true
           status: failure
           service_url: ${{secrets.SERVICE_URL}}
